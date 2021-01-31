@@ -8,7 +8,7 @@ Nmap and wkhtmltopdf.
     php searcher.php --ip=X [--nmap-t=X] [--http-t=X] [--scr-dir=X]
 
 --ip  
-Nmap scan target. E.g., 10.10.\*.\*
+Nmap scan target. E.g., 10.100.\*.\*
   
 --nmap-t  
 Nmap scan timeout. Possible values: 0..5. The default is 5. See [https://nmap.org/book/performance-timing-templates.html](https://nmap.org/book/performance-timing-templates.html)
