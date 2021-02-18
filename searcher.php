@@ -1,7 +1,6 @@
 #!/usr/bin/env php
 <?php
     try {
-
         function test_url($url, $timeout) {
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
@@ -82,7 +81,6 @@
         }
 
         main();
-
     } catch (Exception $error) {
         echo 'Error: ',  $error->getMessage(), "\n";
     }
